@@ -1,0 +1,231 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Untitled Page</title>
+    
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+<meta http-equiv="Content-Type" content="text/html; 
+charset=windows-1256" />
+        <style type="text/css">
+            
+
+            /* set the menu style */
+.menuHead { font-weight: bold; font-size: larger; 
+
+background-color: #A9A9A9;
+                width: 169px;
+            }
+.menuChoices { background-color: #DCDCDC; width: 169px;
+            }
+.menu a {color: #000000; text-decoration: none;}
+.menu a:hover {text-decoration: underline;} 
+/* position your menus */
+#menu1 {position: absolute; top: 189px; 
+left: -76px; 
+width: 
+
+169px;
+            }
+#menu2 {position: absolute; top: 189px; 
+left: 103px; 
+width: 
+
+169px;
+                height: 100px;
+            }
+    #menu3 {position: absolute; top: 189px; 
+left: 459px; 
+width: 
+169px;
+                height: 84px;
+                bottom: 276px;
+            }
+    #menu4 {position: absolute; top: 189px; 
+left: 280px; 
+width: 
+
+169px;
+            }
+    #menu5 {position: absolute; top: 189px; 
+left: 637px; 
+width: 
+
+169px;
+                height: 83px;
+            }
+    
+#menu6 {position: absolute; top: 189px; 
+left: 815px; 
+width: 
+
+169px;
+                height: 82px;
+            }
+            #menu7 {position: absolute; top: 183px; 
+left: 990px; 
+width: 169px;
+                height: 31px;
+                margin-top: 3px;
+            }
+    
+#form1
+            {
+                height: 472px;
+                margin-top: 365px;
+                width: 1120px;
+            }
+</style>
+
+<script type="text/javascript">
+<!--
+/* we'll only allow DOM browsers to simplify things*/
+(document.getElementById ? DOMCapable = true : DOMCapable = false);
+
+
+function hide(menuName)
+{
+if (DOMCapable)
+{
+var theMenu = document.getElementById(menuName+"choices");
+var theMenu.style.visibility = 'hidden';
+}
+}
+function show(menuName)
+{
+if (DOMCapable)
+{
+var theMenu = document.getElementById(menuName+"choices");
+ var theMenu.style.visibility = 'visible';
+}
+}
+//-->
+</script>
+    
+</head>
+
+<form id="form1" runat="server">
+<body dir="rtl">
+
+    <asp:Image ID="Image1" runat="server" 
+        
+        style="position: absolute; top: 54px; right: -119px; height: 115px; width: 1053px; left: 213px" />
+<div id="menu1" dir="rtl" class="menu" onmouseover="show
+
+('menu1');" onmouseout="hide('menu1');">
+<div class="menuHead"><a href="Home.aspx">HOME</a></div>
+</div>
+<div id="menu2" dir="rtl" class="menu" onmouseover="show
+
+('menu2');" onmouseout="hide('menu2');">
+<div class="menuHead">ABOUT US</div>
+<div id="menu2choices" class="menuChoices"> 
+<a href= "History.aspx">HISTORY</a><br />
+<a href="Milestones.aspx">MILESTONES</a><br />
+<a href="Subgroups.aspx">SUBGROUPS</a></a><br />
+<a href="OperatingAreas.aspx">OPERATING AREAS</a><br />
+</div>
+</div>
+<div id="menu3" dir="rtl" class="menu" onmouseover="show
+
+('menu3');" onmouseout="hide('menu3');">
+<div class="menuHead">PARTNERS</div> 
+<div id="menu3choices" class="menuChoices"> 
+<a href="http://www.javascript.com">OUR PARTNERS</a><br />
+<a href="http://www.w3c.org">BE A PARTNER</a><br />
+
+</div>
+</div>
+<div id="menu4" dir="rtl" class="menu" onmouseover="show
+
+('menu4');" onmouseout="hide('menu4');">
+<div class="menuHead">ARCHIVES</div> 
+<div id="menu4choices" class="menuChoices"> 
+<a href="ImagesArchive.aspx">ALBUMS</a><br />
+<a href="Videos.aspx">VIDEOS</a><br />
+<a href="SuccessStories.aspx">SUCCESS STORIES</a><br />
+
+</div>
+</div><div id="menu5" dir="rtl" class="menu" onmouseover="show
+
+('menu5');" onmouseout="hide('menu5');">
+<div class="menuHead">NEWS AND EVENTS</div> 
+<div id="menu5choices" class="menuChoices"> 
+<a href="NewsFinal.aspx">NEWS</a><br />
+<a href="PressRelease.aspx">PRESS RELEASES</a><br />
+
+</div>
+</div><div id="menu6" dir="rtl" class="menu" onmouseover="show
+
+('menu6');" onmouseout="hide('menu6');">
+<div class="menuHead">HELP A CHILD</div> 
+<div id="menu6choices" class="menuChoices"> 
+<a href="DonateForACause.aspx">DONATE</a><br />
+<a href="AdoptAChild.aspx">ADOPT A CHILD</a><br />
+<a href="Report.aspx">REPORT</a><br />
+
+</div>
+</div>
+<div id="menu7" dir="rtl" class="menu" onmouseover="
+" onmouseout="">
+<div class="menuHead"></div> 
+</div>
+
+<script type="text/javascript">
+<!--
+/* Don't hide menus for JS off and older browsers */
+if (DOMCapable)
+{
+hide("menu1"); 
+hide("menu2");
+hide("menu3");
+hide("menu4");
+hide("menu5");
+hide("menu6");
+hide("menu7");
+}
+//-->
+</script>
+    <asp:Image ID="Image2" runat="server" 
+        style="position: absolute; top: 49px; right: 1010px; height: 130px; left: 21px; width: 113px" />
+    <div>
+    </div>
+     
+    </div>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        <p>
+            <br />
+        </p>
+        <p>
+        </p>
+        <p>
+        </p>
+        <p>
+        </p>
+        <p>
+        </p>
+        <p>
+        </p>
+        <p>
+        </p>
+        <p>
+        </p>
+        <p>
+        </p>
+        <p>
+        </p>
+        <p>
+        </p>
+        <p>
+        </p>
+        <p>
+        </p>
+    </asp:ContentPlaceHolder>
+</form>
+</body>
+
+          
+</html>

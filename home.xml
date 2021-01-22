@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Advertisements>
+  <Ad>
+    <ImageURL>
+      Forest Flowers.jpg </ImageURL>
+    <AlternateText>
+       Image
+     </AlternateText>
+    <Impressions>80</Impressions>
+    <Keyword>Flowers</Keyword>
+    
+  </Ad>
+  <Ad>
+    <ImageURL>Ganapathi.jpg</ImageURL>
+    <AlternateText>ganapathi</AlternateText>
+    <Keyword>god</Keyword>
+    
+    
+  </Ad>
+  <Ad>
+    <ImageURL>Autumn Leaves.jpg</ImageURL>
+    <AlternateText>Leaves</AlternateText>
+    <Keyword>Leaves</Keyword>
+    
+    
+    
+  </Ad>
+  
+</Advertisements>

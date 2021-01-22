@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>
+      banner1.jpg
+    </ImageUrl>
+    <NavigateUrl>
+      www.google.com
+    </NavigateUrl>
+    <AlternatingText> visit google</AlternatingText>
+  </Ad>
+  <Ad>
+    <ImageUrl>
+      l1.jpg
+    </ImageUrl>
+   
+    <AlternateText> zylogic</AlternateText>
+  </Ad>
+  <Ad>
+    <ImageUrl>
+    l2.jpg
+    </ImageUrl>
+   
+    <AlternateText>hi</AlternateText>
+  </Ad>
+  <Ad>
+    <ImageUrl>
+    l3.jpg
+    </ImageUrl>
+
+    <AlternateText>hi</AlternateText>
+  </Ad>
+  <Ad>
+    <ImageUrl>
+     l4.jpg 
+    </ImageUrl>
+
+    <AlternateText>hi</AlternateText>
+  </Ad>
+  <Ad>
+    <ImageUrl>
+     l5.jpg
+    </ImageUrl>
+    <AlternateText>hi</AlternateText>
+  </Ad>
+  <Ad>
+    <ImageUrl>
+     l6.jpg
+    </ImageUrl>
+    <AlternateText>hi</AlternateText>
+  </Ad>
+  <Ad>
+    <ImageUrl>
+      l7.jpg
+    </ImageUrl>
+
+    <AlternateText>hi</AlternateText>
+  </Ad>
+  <Ad>
+    <ImageUrl>
+    l8.jpg
+    </ImageUrl>
+
+    <AlternateText>hi</AlternateText>
+  </Ad>
+
+</Advertisements>
